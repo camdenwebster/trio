@@ -165,7 +165,7 @@ jobs:
   build:
     name: Build
     needs: [check_certs, check_status]
-    runs-on: [self-hosted, macOS]
+    runs-on: macos-26
     permissions:
       contents: write
     if:
